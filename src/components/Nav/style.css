@@ -1,0 +1,47 @@
+nav{
+    background: rgb(0,48,96);
+    padding: 1em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+nav > div> a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    nav > div{
+        width: 700px;
+        margin: auto;
+    }
+    
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    
+
+} 

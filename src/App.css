@@ -1,0 +1,59 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e7e7;
+
+}
+
+button:focus{
+    outline: none;
+}
+
+* {
+    touch-action: manipulation;
+}
+
+
+
+
+.container{
+    background: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    .container{
+        
+        width: 700px;
+        margin: auto;
+        margin-top: 3em;
+    }
+    
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    
+
+}  

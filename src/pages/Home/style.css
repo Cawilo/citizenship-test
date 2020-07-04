@@ -1,0 +1,62 @@
+.quizzes-container{
+    font-size: 1.3em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.quizzes-container > div:nth-child(even){
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+.full-test{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: rgb(21, 189, 21);
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+.full-test:active{
+    background: rgb(9, 71, 9);
+}
+
+.sub-test{
+    background: rgb(27, 148, 218);
+    font-size: 0.8em;
+    outline: none;
+    border: 0;
+    padding: 0.6em;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.sub-test:active{
+    background: rgb(20, 86, 124);;
+}
+
+.sub-sub-test{
+    color: #1b1b1b
+}
+
+.sub-sub-test>span{
+    font-weight: bold;
+}
+
+.sub-sub-test:active{
+    color: blue
+}
+
+.sub-sub-test:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
